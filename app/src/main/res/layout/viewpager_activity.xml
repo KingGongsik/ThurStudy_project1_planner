@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/tvall"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="10dp"
+        android:text=" 안녕하세요.
+
+
+
+
+
+
+        여기는 행복을 찾아 떠나는 이세계의 문입니다. "
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvall"
+        android:layout_marginTop="30dp"
+        android:text="버튼 클릭"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/btntext"
+
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/btntext"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/etsend"
+
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
